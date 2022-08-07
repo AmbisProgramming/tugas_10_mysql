@@ -1,0 +1,12 @@
+create database  importdata ;
+
+create table buahbuahan(
+    -> id_buah int(10) primary key ,
+    -> nama_buah varchar(50),
+    -> varietas_buah varchar(50) ) ;
+
+DROP TABLE IF EXISTS buahbuahan ;
+
+source E:\Program Files\FullstackWebdev\Database\buahbuahan.sql ;
+
+select * from buahbuahan ;
